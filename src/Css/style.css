@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 16px 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    height: 70vh;
+}
+
+.users-container {
+    margin: 40px auto 20px;
+    padding: 0 15px;
+}
+
+.users-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.users-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.user-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.user-card:hover {
+    transform: translateY(-5px);
+}
+
+.user-name {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user-name span {
+    margin: 0;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.user-name span:hover {
+    margin: 0;
+    font-size: 20px;
+    color: #0f88e4;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.load-more-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.load-more-btn:hover {
+    background-color: #218838;
+}
+
+.user-details-container {
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+.user-details-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    position: relative;
+    flex-direction: row;
+}
+
+.user-details-back-btn {
+    position: absolute;
+    left: 0;
+}
+
+.user-details-heading {
+    font-weight: bold !important;
+    font-size: 28px !important;
+    text-align: center !important;
+    flex-grow: 1 !important;
+}
+
+.user-info-paper,
+.user-posts-paper {
+    padding: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.add-post-paper {
+    padding: 24px;
+    margin-bottom: 24px;
+    width: 70%;
+
+}
+
+.add-post {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.user-info-heading {
+    font-size: 1.25rem !important;
+    font-weight: bold !important;
+    margin-bottom: 16px !important;
+}
+
+.user-info-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr;
+}
+
+.post-text {
+    margin-bottom: 16px !important;
+}
+
+/* Your old styles + improvements */
+.table-cell-title {
+    font-weight: bold !important;
+    width: 30%;
+}
+
+.table-cell-desc {
+    font-weight: bold !important;
+}
+
+.table-cell-actions {
+    font-weight: bold !important;
+    width: 180px;
+}
+
+
+.table-header {
+    background-color: #e6e6e6 !important;
+}
+
+.table-header .MuiTableCell-root {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.custom-table .MuiTableCell-root {
+    border-right: 1px solid #ddd;
+}
+
+.custom-table .MuiTableCell-root:last-child {
+    border-right: none;
+}
+
+.table-row .MuiTableCell-root {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table-row:hover {
+    background-color: #f5f5f5;
+}
+
+.pagination-text {
+    align-self: center;
+}
+
+.dialog-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.dialog-content-text {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+.dialog-actions-center {
+    justify-content: center !important;
+}
+
+.dialog-textfield {
+    margin-bottom: 16px !important;
+}
+
+@media (min-width: 600px) {
+    .user-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .user-info-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.search-add-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+    flex-direction: row;
+}
+
+.search-input {
+    width: 300px;
+}
+
+.posts-button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+
+.posts-table-actions {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+@media (max-width: 600px) {
+    .posts-table-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .add-post-paper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .users-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .users-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .users-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .user-card {
+        padding: 15px;
+    }
+
+    .users-heading {
+        font-size: 24px;
+    }
+
+    .load-more-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}

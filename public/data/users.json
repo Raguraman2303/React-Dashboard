@@ -1,0 +1,92 @@
+[
+{
+"id": 1,
+"name": "Raguraman",
+"email": "raguraman@gmail.com",
+"phone": "8754955465",
+"website": "raguraman.org",
+"company_name": "Sbv Technologies Pvt Ltd" 
+},
+{
+"id": 2,
+"name": "John",
+"email": "john@gmail.com",
+"phone": "9852364788",
+"website": "john.net",
+"company_name": "InfinityHub" 
+},
+{
+"id": 3,
+"name": "Mani",
+"email": "mani@gmail.com",
+"phone": "8956214753",
+"website": "mani.com",
+"company_name": "Google" 
+},
+{
+"id": 4,
+"name": "Ram",
+"email": "ram@gmail.com",
+"phone": "9876543210",
+"website": "ram.com",
+"company_name": "Microsoft" 
+},
+
+{
+"id": 5,
+"name": "Naveen",
+"email": "naveen@gmail.com",
+"phone": "8765687656",
+"website": "naveen.com",
+"company_name": "Accenture" 
+},
+{
+"id": 6,
+"name": "Sriraman",
+"email": "sriraman@gmail.com",
+"phone": "7665677865",
+"website": "sriraman.com",
+"company_name": "Wipro" 
+},
+{
+"id": 7,
+"name": "Ranganathan",
+"email": "ranganathan@gmail.com",
+"phone": "6575467556",
+"website": "ranganathan.com",
+"company_name": "IBM" 
+},
+{
+"id": 8,
+"name": "Akash",
+"email": "akash@gmail.com",
+"phone": "5675657677",
+"website": "akask.com",
+"company_name": "InfinityHub" 
+},
+{
+"id": 9,
+"name": "Dhanush",
+"email": "dhanush@gmail.com",
+"phone": "9876789987",
+"website": "dhanush.com",
+"company_name": "InfinityHub" 
+},
+{
+"id": 10,
+"name": "Ashwin",
+"email": "ashwin@gmail.com",
+"phone": "7898766787",
+"website": "ashwin.com",
+"company_name": "InfinityHub" 
+},
+{
+"id": 11,
+"name": "Vasanth",
+"email": "vasanth@gmail.com",
+"phone": "87667987687",
+"website": "vasanth.com",
+"company_name": "InfinityHub" 
+}
+
+]
